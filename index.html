@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dashboard UI</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using a versatile, professional font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- ===== SIDEBAR ===== -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h3>ProjectFlow</h3>
+            </div>
+            <ul class="sidebar-links">
+                <li><a href="#" class="active">Dashboard</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#">Log Out</a>
+            </div>
+        </nav>
+
+        <!-- ===== MAIN CONTENT ===== -->
+        <main class="main-content">
+
+            <!-- Main Header -->
+            <header class="main-header">
+                <h1>Welcome Back, Alex!</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search projects...">
+                </div>
+            </header>
+
+            <!-- Stat Cards -->
+            <section class="stat-cards">
+                <div class="card">
+                    <h4>Total Projects</h4>
+                    <p>18</p>
+                </div>
+                <div class="card">
+                    <h4>Tasks Pending</h4>
+                    <p>25</p>
+                </div>
+                <div class="card">
+                    <h4>Issues Open</h4>
+                    <p>6</p>
+                </div>
+                <div class="card">
+                    <h4>Team Members</h4>
+                    <p>12</p>
+                </div>
+            </section>
+
+            <!-- Main Sections -->
+            <div class="main-sections">
+                <!-- Project Progress Section -->
+                <section class="card project-progress">
+                    <h3>Project Progress</h3>
+                    <ul>
+                        <li>
+                            <span class="project-name">Mobile App Redesign</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: 75%;"></div>
+                            </div>
+                            <span class="progress-percent">75%</span>
+                        </li>
+                        <li>
+                            <span class="project-name">New API Integration</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: 40%;"></div>
+                            </div>
+                            <span class="progress-percent">40%</span>
+                        </li>
+                        <li>
+                            <span class="project-name">Marketing Website</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: 95%;"></div>
+                            </div>
+                            <span class="progress-percent">95%</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Recent Activity Section -->
+                <section class="card recent-activity">
+                    <h3>Recent Activity</h3>
+                    <ul>
+                        <li><span class="user">Sarah</span> commented on <span class="task">"Fix login bug"</span></li>
+                        <li><span class="user">Mike</span> completed the task <span class="task">"Update user avatars"</span></li>
+                        <li><span class="user">Alex</span> created a new project <span class="task">"Q4 Financial Report"</span></li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
