@@ -2,9 +2,6 @@
 
 > A clean, modern, and fully responsive dashboard interface built with pure HTML and CSS. This project demonstrates mastery of advanced CSS layout techniques, component-based styling, and a mobile-first approach without relying on any JavaScript or external image assets.
 
-![Project Dashboard Preview](./dashboard-preview.png)
-
-### [View Live Demo](https://your-username.github.io/your-repo-name/) <!-- TODO: Replace this with your live demo link -->
 
 ---
 
